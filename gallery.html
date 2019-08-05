@@ -1,89 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gallery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
 
-</body>
+<section>
+  <div class="tabs is-centered">
+    <ul>
+      <li class="is-active"><a>Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </div>
+
+  <div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article id="cards" class="tile is-child notification">
+            <p id="titles" class="title">Psychic Game</p>
+            <figure class="image is-4by3">
+              <a href="https://kattymay.github.io/Psychic-Game/">
+                <img src="https://media.giphy.com/media/ZFWlZrcJU9V9ewKnvc/giphy.gif">
+            </figure>
+            </a>
+          </article>
+
+          <article id="cards" class="tile is-child notification">
+            <p id="titles" class="title">Giphy Bands</p>
+            <figure class="image is-4by3">
+              <a href="https://kattymay.github.io/Giphy/">
+                <img src="http://giphygifs.s3.amazonaws.com/media/5xaOcLGOj8LGFbI7xFC/giphy.gif">
+            </figure>
+            </a>
+          </article>
+        </div>
+
+        <div class="tile is-parent">
+          <article id="cards" class="tile is-child notification">
+            <p id="titles" class="title">Crystal Collector</p>
+            <a href="https://kattymay.github.io/unit-4-game/">
+              <figure class="image is-4by3">
+                <img src="https://media.giphy.com/media/h81KDOAvm6ui9ce5np/giphy.gif">
+              </figure>
+              <figure class="image is-4by3">
+                <img src="https://media.giphy.com/media/h81KDOAvm6ui9ce5np/giphy.gif">
+              </figure>
+              <figure class="image is-4by3">
+                <img src="https://media.giphy.com/media/h81KDOAvm6ui9ce5np/giphy.gif">
+              </figure>
+            </a>
+          </article>
+        </div>
+      </div>
 
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Katherine Walters</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Gallery <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="index.html">Home</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
-
+      <div class="tile is-parent">
+        <article id="cards" class="tile is-child notification">
+          <p id="titles" class="title">Train Scheduler</p>
+          <figure class="image is-4by3">
+            <a href=" https://kattymay.github.io/Train-Timer/">
+              <img src="https://media.giphy.com/media/FYxJvUs2sb0o8/giphy.gif">
+          </figure>
+          </a>
+        </article>
       </div>
     </div>
-  </nav>
 
 
-  <div class="card-deck">
-        <div class="card">
-          <img src="images/tree.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            
+    <div class="tile is-parent">
+      <article id="cards" class="tile is-child notification">
+        <div class="content">
+          <p id="titles" class="title">Project One * Bardify</p>
+          <a href="https://kattymay.github.io/Shakespearean-Rap/">
+            <figure class="image is-4by3">
+              <img src="assets/images/bardify-logo-sml.png">
+            </figure>
+          </a>
+          <br>
+          <div class="content">
+            <p id="titles" class="title">Trivia</p>
+            <a href="https://kattymay.github.io/TriviaGame/">
+              <figure class="image is-4by3">
+                <img src="https://media.giphy.com/media/3o7TKJoSDgvrTXcHQc/giphy.gif">
+              </figure>
+            </a>
+            <br>
+            <p id="titles" class="title">Liri</p>
+            <figure class="image is-4by3">
+              <img src="https://media.giphy.com/media/970Sr8vpwEbXG/giphy.gif">
+            </figure>
+            <br>
+            <p id="titles" class="title">Bamazon</p>
+            <figure class="image is-4by3">
+              <img src="https://media.giphy.com/media/m5IJIpMYfrEhG/giphy.gif">
+            </figure>
           </div>
         </div>
-        <div class="card">
-          <img src="images/IMG_7293.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-          
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/IMG_7292.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-         
-        </div>
-      </div>
+      </article>
+    </div>
+  </div>
 
-      <div class="card-deck">
-            <div class="card">
-              <img src="images/pueblo.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                
-              </div>
-            </div>
-            <div class="card">
-              <img src="images/building.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                
-              </div>
-            </div>
-            <div class="card">
-              <img src="images/train.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                
-              </div>
-            </div>
-          </div>
 
-</body>
+</section>
 
 </html>

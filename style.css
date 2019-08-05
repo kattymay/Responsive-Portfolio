@@ -1,41 +1,50 @@
-.middle {
-    float: right;
+body {
+    background: linear-gradient(to bottom, #cc6600 0%, #993399 100%);
 }
 
-.right {
-    float: right;
+#cards {
+    background: linear-gradient(to bottom, #cc6600 0%, #993399 100%);
+
 }
 
+#titles {
+    color: #660066;
+    font-family: 'Playfair Display', serif;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+
+  .hero  {
+    background-image: radial-gradient(#993399, rgb(196, 90, 64), #cc6600);
+  }
+
+  #index {
+    background-image: radial-gradient(#993399, rgb(219, 148, 81), #cc6600);
+
+  }
+
+  .title, .content {
+    font-family: 'Playfair Display', serif;
+}
+  
 .container {
-        width: 100%;
-        margin: 40px;
-        padding: 20px;
-    }
-
-.row-1 {
- position: absolute;
- right: -30px;
- bottom: 0;
- width: 250px;
- padding: 20px;
+  width: 30% !important ;
+  margin-top: -100px;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: row !important;
 }
 
-.row-2 {
-    float:right;
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.col-6 {
-float:right;
+.form {
+  margin-bottom: 15%;
 
 }
-
-
-#img {
-    width: 100%;
-  }
-
-  #pueblo {
-      width: 100%;
-      padding: 30px;
-      margin: 10px;
-  }
